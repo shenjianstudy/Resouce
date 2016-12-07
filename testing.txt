@@ -1,0 +1,17 @@
+ @GET
+    @Timed
+    public HealthReportQuery queryHealthReport(@QueryParam("component") Optional<String> component) {
+        HealthReport healthReport = HealthReportBuilder.create()
+                .withComponent("time-option")
+                .withDescription("Time Option Drawdown UIPS")
+                .withVersion("3.1.1")
+                .withIsAvailable(true)
+                .withConfluence("http://confluence.hk.hsbc/display/UUI/00.+eDist+components")
+                .withStash("https://stash.hk.hsbc/projects/EFX/repos/health-check-model/browse")
+                .withDownstreamDetail("tas", true, "Is connected")
+                .withDownstreamDetail("sda", true, "Is connected")
+                .withUpstreamDetail("reverse-proxy", true, "Is connected")
+                .withUpstreamDetail("dummy-upstream", false, "Is not connected")
+                .build();
+        return new HealthReportQuery(healthReport);
+    }
