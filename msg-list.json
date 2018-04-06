@@ -76,14 +76,27 @@
     {
       "messageId":"7",
       "userId":"140000198202211138",
-      "userName":"Jove",
+      "userName":"Lorraine",
       "userImgUrl":"./assets/user.jpg",
       "toUserId":"210000198410281948",
-      "toUserName":"Lorraine",
+      "toUserName":"Jove",
       "userAvatar":"./assets/to-user.jpg",
       "time":1491231150000,
       "message":"The <textarea> tag defines a multi-line text input control.\nA text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).\nThe size of a text area can be specified by the cols and rows attributes, or even better; through CSS' height and width properties.",
       "status":"success"
+    },
+    {
+      "messageId"8",
+      "userId":"140000198202211138",
+      "userName":"Lorraine",
+      "userImgUrl":"./assets/user.jpg",
+      "toUserId":"210000198410281948",
+      "toUserName":"Jove",
+      "userAvatar":"./assets/to-user.jpg",
+      "time":1491231120000,
+      "message":"Hi Lorraine, How are you day?",
+      "status":"success"
     }
+    
   ]
 }
