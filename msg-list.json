@@ -14,6 +14,19 @@
 
     },
     {
+      "messageId":"8",
+      "userId":"140000198202211138",
+      "userName":"Lorraine",
+      "userImgUrl":"./assets/user.jpg",
+      "toUserId":"210000198410281948",
+      "toUserName":"Jove",
+      "userAvatar":"./assets/to-user.jpg",
+      "time":1488349800000,
+      "message":"A good programmer is someone who always looks both ways before crossing a one-way street. ",
+      "status":"success"
+
+    },
+    {
       "messageId":"2",
       "userId":"210000198410281948",
       "userName":"Jove",
